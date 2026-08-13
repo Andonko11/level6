@@ -1721,12 +1721,73 @@ footer {
 
 /* --------  Recently changes 2026 13.08 ----------- */
 @media only screen and (max-width: 768px) {
-    .thirdd {
+    
+    
+
+    .sec5 > div.thirdd {
         width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
     .thirdd img {
         width: 100%;
     }
+
+    .sec5 .thirdd > a {
+        top: unset;
+        left: unset;
+    }
 }
-/*
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .firstt {
+        width:100% !important;
+    }
+    .secondd {
+        display:none;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .sec5 .inline ul {
+        justify-content: center;
+        align-items: center;
+        max-height: 100px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1310px) {
+    .sec5 .inline ul {
+        max-height: 100px;
+    }
+    .awesome {
+        display:none !important;
+    }
+    .sec5 .inline ul li > p {
+        font-size: 13px;
+    }
+    .sec5 .inline ul li {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .sec5 .inline ul li > h1 {
+       font-size: 20px;
+    }
+
+    .sec5 .inline ul, .sec5 .firstt p, .sec5 .secondd li p, .sec5 .inline ul li:last-child {
+        margin: 5px;
+    }
+
+    .sec5 .firstt h2 {
+        margin-bottom: unset;
+    }
+    
+}
+
 
