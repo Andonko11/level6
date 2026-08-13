@@ -1715,3 +1715,18 @@ footer {
     }
 }
 
+
+
+
+
+/* --------  Recently changes 2026 13.08 ----------- */
+@media only screen and (max-width: 768px) {
+    .thirdd {
+        width: 100%;
+    }
+    .thirdd img {
+        width: 100%;
+    }
+}
+/*
+
